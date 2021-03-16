@@ -1,4 +1,4 @@
-describe 'Select2', :select2 do
+describe 'Select2', :select2 do 
     
     describe('single', :single) do
 

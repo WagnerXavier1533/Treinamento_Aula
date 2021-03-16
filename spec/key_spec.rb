@@ -12,6 +12,7 @@ describe 'Teclado', :key do
             expect(page).to have_content 'You entered:' + t.to_s.upcase
             sleep 1
         end
+        
     end
 
     it 'Enviando letras' do
@@ -22,6 +23,7 @@ describe 'Teclado', :key do
             expect(page).to have_content 'You entered:' + l.to_s.upcase
             sleep 1 
         end
+
     end
 
 end 
