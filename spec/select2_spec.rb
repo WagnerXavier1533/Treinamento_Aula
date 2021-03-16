@@ -54,6 +54,4 @@ describe 'Select2', :select2 do
 
     end
 
-
-
 end
